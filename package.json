@@ -1,0 +1,49 @@
+{
+  "name": "wetland-cli",
+  "version": "0.1.0",
+  "description": "Command line tools for wetland ORM.",
+  "bin": {
+    "wetland": "./dist/bin/wetland.js",
+    "wetland-snapshot": "./dist/bin/wetland-snapshot.js",
+    "wetland-migrator": "./dist/bin/wetland-migrator.js"
+  },
+  "main": "./dist/wetland.js",
+  "typings": "./dist/wetland.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && gulp build && chmod ug+x dist/*",
+    "prepublish": "npm run build",
+    "postpublish": "git push upstream master && git push upstream --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpoonX/wetland-cli.git"
+  },
+  "keywords": [
+    "wetland",
+    "orm",
+    "cli",
+    "generator",
+    "mysql",
+    "sqlite",
+    "postgres",
+    "database"
+  ],
+  "author": "RWOverdijk <wesley@spoonx.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpoonX/wetland-cli/issues"
+  },
+  "homepage": "https://github.com/SpoonX/wetland-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "wetland": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.3.31",
+    "@types/knex": "0.0.44",
+    "@types/node": "^7.0.10",
+    "gulp": "^3.9.1",
+    "typescript": "^2.2.1"
+  }
+}
