@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Command line tools for wetland ORM.",
   "bin": {
-    "wetland": "./dist/bin/wetland.js",
-    "wetland-snapshot": "./dist/bin/wetland-snapshot.js",
-    "wetland-migrator": "./dist/bin/wetland-migrator.js"
+    "wetland": "./dist/wetland.js",
+    "wetland-snapshot": "./dist/wetland-snapshot.js",
+    "wetland-migrator": "./dist/wetland-migrator.js"
   },
   "main": "./dist/wetland.js",
   "typings": "./dist/wetland.d.ts",
