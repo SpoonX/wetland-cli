@@ -1,6 +1,6 @@
 {
   "name": "wetland-cli",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Command line tools for wetland ORM.",
   "bin": {
     "wetland": "./dist/wetland.js",
@@ -37,7 +37,9 @@
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "wetland": "^1.4.2"
+    "wetland": "^1.4.2",
+    "boards": "^1.0.0",
+    "plugin-discovery": "^1.0.0"
   },
   "devDependencies": {
     "@types/commander": "^2.3.31",
