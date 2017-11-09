@@ -4,7 +4,7 @@ Command line tools for [wetland ORM](https://wetland.spoonx.org).
 
 ## Installation
 
-`npm i -g wetand-cli`
+`npm i -g wetland-cli`
 
 ## Commands
 
@@ -23,7 +23,7 @@ Wetland-cli offers support for generators using [Boards](https://github.com/Spoo
 
 An example generator, one you might want to install as well, is [wetland-generator-entity](https://github.com/SpoonX/wetland-generator-entity).
 
-`npm i -D board-wetland-entity`
+`npm i -D wetland-generator-entity`
 
 You can find a skeleton, as a base to create your own here at [wetland-generator-skeleton](https://github.com/SpoonX/wetland-generator-skeleton).
 
