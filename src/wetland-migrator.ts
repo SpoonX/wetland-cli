@@ -109,7 +109,7 @@ program.command('status').description('Overview of migrations and their status.'
   Promise.all([migrator.allMigrations(), migrator.appliedMigrations()]).then(result => {
     let runMap = {};
 
-    result[1].forEach(migration => runMap[migration.name] = migration);
+    result[1].forEach((migration: any) => runMap[migration.name] = migration);
 
     result[0].map(migration => {
       let applied = runMap[migration];

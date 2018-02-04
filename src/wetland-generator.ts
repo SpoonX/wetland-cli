@@ -10,7 +10,7 @@ const {PluginDiscovery} = require('plugin-discovery');
 class WetlandGenerator {
   private boards: any;
 
-  private program: program.ICommand;
+  private program: any;
 
   public constructor() {
     this.program = program;

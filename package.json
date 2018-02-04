@@ -41,13 +41,13 @@
     "commander": "^2.9.0",
     "plugin-discovery": "^1.0.0",
     "to-datetime": "^1.0.1",
-    "wetland": "^2.0.1"
+    "wetland": "^3.0.0"
   },
   "devDependencies": {
     "@types/commander": "^2.3.31",
     "@types/knex": "0.0.44",
     "@types/node": "^7.0.10",
     "gulp": "^3.9.1",
-    "typescript": "^2.2.1"
+    "typescript": "^2.6.2"
   }
 }
